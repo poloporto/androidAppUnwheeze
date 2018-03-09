@@ -2,13 +2,13 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="3.2.0-alpha04"
-    timestamp="1519509919623"
+    timestamp="1519655791596"
     token="-4953503758976897799"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -23,18 +23,82 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1519507907785"
+        timestamp="1519655791596"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -49,6 +113,36 @@
             location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
@@ -58,24 +152,20 @@
             location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1519509833849"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1519509919623"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

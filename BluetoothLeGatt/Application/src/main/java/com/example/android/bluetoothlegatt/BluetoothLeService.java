@@ -103,7 +103,7 @@ public class BluetoothLeService extends Service {
                                          BluetoothGattCharacteristic characteristic,
                                          int status) {
             if (status == BluetoothGatt.GATT_SUCCESS) {
-                Log.w(TAG, characteristic.getValue().toString());
+                Log.w(TAG, "okkkkkkk"+characteristic.getValue().toString());
                 broadcastUpdate(ACTION_DATA_AVAILABLE, characteristic);
             }
             else
@@ -390,13 +390,15 @@ public class BluetoothLeService extends Service {
     }
 
 
+    public void MeasureCustomCharacteristic(int value) {
 
 
 
-
-
-
-
+    }
 
 
 }
+
+
+
+

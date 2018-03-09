@@ -23,4 +23,28 @@
         android:layout_height="wrap_content"
         android:text="@string/no_data"
         android:id="@+id/data_value" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Measure"
+        android:id="@+id/buttonMeasure"
+        android:onClick="onMeasure" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_data"
+        android:id="@+id/data_PM10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_data"
+        android:id="@+id/data_PM5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_data"
+        android:id="@+id/data_CO2" />
+
 </LinearLayout>

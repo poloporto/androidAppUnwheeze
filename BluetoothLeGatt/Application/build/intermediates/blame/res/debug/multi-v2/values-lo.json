@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pribeiro/AndroidStudioProjects/BluetoothLeGatt/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
+            "outputFile": "/home/pribeiro/workspace/unwheeze/AndroidUnwheeze/androidAppUnwheeze/BluetoothLeGatt/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
                     "source": "/home/pribeiro/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/c6c216e651a540561582fd01b78218f8/res/values-lo/values-lo.xml",

@@ -53,6 +53,8 @@ public class DeviceControlActivity extends Activity {
 
     private TextView mConnectionState;
     private TextView mDataField;
+    private TextView mDataField2;
+    private TextView mDataField3;
     private String mDeviceName;
     private String mDeviceAddress;
     private ExpandableListView mGattServicesList;
@@ -108,7 +110,12 @@ public class DeviceControlActivity extends Activity {
                 // Show all the supported services and characteristics on the user interface.
                 //displayGattServices(mBluetoothLeService.getSupportedGattServices());
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
-                displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
+                Log.w(TAG, intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
+                String[] data=intent.getStringExtra(BluetoothLeService.EXTRA_DATA).split("-"); //sinon récupère trop de données.
+                Log.w(TAG,data[0]);
+                Log.w(TAG,data[1]);
+                Log.w(TAG,data[2]);
+                displayData(data[0], data[1], data[2]);
             }
         }
     };
@@ -149,7 +156,9 @@ public class DeviceControlActivity extends Activity {
 
     private void clearUI() {
         //mGattServicesList.setAdapter((SimpleExpandableListAdapter) null);
-        mDataField.setText(R.string.no_data);
+        mDataField.setText("PM10:"+R.string.no_data);
+        mDataField2.setText("PM5:"+R.string.no_data);
+        mDataField3.setText("CO2:"+R.string.no_data);
     }
 
     @Override
@@ -166,7 +175,9 @@ public class DeviceControlActivity extends Activity {
         mGattServicesList = (ExpandableListView) findViewById(R.id.gatt_services_list);
         mGattServicesList.setOnChildClickListener(servicesListClickListner);
         mConnectionState = (TextView) findViewById(R.id.connection_state);*/
-        mDataField = (TextView) findViewById(R.id.data_value);
+        mDataField = (TextView) findViewById(R.id.data_PM10);
+        mDataField2 = (TextView) findViewById(R.id.data_PM5);
+        mDataField3 = (TextView) findViewById(R.id.data_CO2);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -235,9 +246,15 @@ public class DeviceControlActivity extends Activity {
         });
     }
 
-    private void displayData(String data) {
-        if (data != null) {
-            mDataField.setText(data);
+    private void displayData(String data1,String data2,String data3) {
+        if (data1 != null) {
+            mDataField.setText("PM10: "+data1);
+        }
+        if (data2 != null) {
+            mDataField2.setText("PM5: "+data2);
+        }
+        if (data3 != null) {
+            mDataField3.setText("CO2: "+data3);
         }
     }
 
@@ -323,7 +340,9 @@ public class DeviceControlActivity extends Activity {
         }
     }
 
+    public void onMeasure(View v){
 
+    }
 
 
 
